@@ -69,7 +69,11 @@
     }
     .product-content .category-box .right {display: none;}
     .mobile-tap {display: block;}
-    .lookbook .swiper-wrapper {height: auto; aspect-ratio: auto 1.4 / 1;}
+    .lookbook .lookbook-swiper {aspect-ratio: auto 1.6/1;}
+    .lookbook .swiper-wrapper {
+        /* height: auto;  */
+        /* aspect-ratio: auto 1.4 / 1; */
+    }
     .sale-product {display: flex; flex-direction: column; gap: 1rem}
     .sale-product .sale-banner {width: 100%; padding: 0 1rem 0 0; box-sizing: border-box;}
     .sale-product .sale-box {width: 100%; padding: 3rem 0;}
@@ -103,6 +107,7 @@
     .product-content .category-box {overflow-x: scroll;}
     .product-content .category-box .left {gap: 8px;}
     .product-content .category-box .left a {font-size: .6rem; width: 3.8rem; line-height: 1.8rem;}
+    .lookbook .swiper-wrapper {aspect-ratio: auto 1/1;}
     .sale-product .sale-banner .banner-box .box .text-box {bottom: 5rem;}
     .sale-product .sale-banner .banner-box .box .text-box p {font-size: .7rem;}
     .sale-product .sale-banner .banner-box .box .text-box h2 {font-size: .8rem; line-height: 1.2rem !important;}

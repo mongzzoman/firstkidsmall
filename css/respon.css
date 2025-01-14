@@ -22,7 +22,7 @@
         font-size: .7rem;
     }
     .best-item, .new-arrivals {
-        padding: 7rem 1rem 0;
+        padding: 7rem 0 0 1rem;
     }
     header .second-nav .icon li .search-box {
         transition: none;
@@ -76,6 +76,7 @@
     }
     .sale-product {display: flex; flex-direction: column; gap: 1rem}
     .sale-product .sale-banner {width: 100%; padding: 0 1rem 0 0; box-sizing: border-box;}
+    .sale-product .sale-banner .banner-box .swiper-slide .item-box {background-position: top;}
     .sale-product .sale-box {width: 100%; padding: 3rem 0;}
     .go-top {width: 2.6rem; height: 2.6rem; background-size: 1.2rem auto; bottom: 4rem; background-color: #f2f2f2; display: none;}
     footer .inner {padding: 0 .8rem 80px; position: relative;}
@@ -117,7 +118,7 @@
     footer .inner .footer-bottom .right .brand-sns {flex-wrap: wrap;}
     footer .inner .footer-top .right {bottom: 10rem;}
     .lookbook-popup .popup-wrapper .popup-box {max-width: 320px; width: 320px; flex-direction: column;}
-    .lookbook-popup .popup-wrapper .popup-box .popup-img {max-width: 320px; width: 100%; background-size: 100% auto ;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-img {max-width: 320px; width: 100%; background-size: 100% auto; border-radius: 5px 5px 0 0 ;}
     .lookbook-popup .popup-wrapper .popup-box .popup-txt {width: 100%; padding: 1rem;}
     .lookbook-popup .popup-wrapper .popup-box .popup-txt .brand {font-size: 14px;}
     .lookbook-popup .popup-wrapper .popup-box .popup-txt .name {font-size: 18px; height: auto;}

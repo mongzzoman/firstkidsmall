@@ -1,14 +1,12 @@
 @media  (max-width:1300px) {
     .product-content .product-box .product {
-        width: calc(100% / 3 - 16px);
+        width: calc(100% / 3 - 14px);
         margin: 0 0 50px 20px ;
     }
     .product-content .product-box .product:nth-of-type(5n+1) {
-        /* margin: 0 0 50px 20px ; */
         margin-left: 20px;
     }
     .product-content .product-box .product:nth-of-type(3n+1) {
-        /* margin: 0 0 50px 0 ; */
         margin-left: 0px;
     }
     .sale-product {gap: 50px;}
@@ -41,12 +39,10 @@
     footer .inner .footer-bottom .right { display: flex;  justify-content: flex-end;}
 }
 @media  (max-width:800px) {
-    /* html {font-size: 16px;} */
     header .first-nav { display: none;}
     header .second-nav {flex-wrap: wrap; padding: .8rem 1rem;}
     header .second-nav .menu {width: 100%; order: 3; justify-content: center; margin-top: 1rem;}
     header .second-nav .menu .brand {display: block;}
-    /* header .second-nav .menu li:not(:first-child) a {margin-left: 22px;} */
     header .second-nav > a.logo {width: auto; order: 1;}
     header .second-nav .icon {order: 2; gap: .4rem;}
     header .second-nav .icon .heart-icon {display: none;}
@@ -63,14 +59,12 @@
     }
     .best-item .best-swiper .swiper-scrollbar.swiper-scrollbar-horizontal, .new-arrivals .new-swiper .swiper-scrollbar.swiper-scrollbar-horizontal {display: none;}
     .product-content .product-box .product {
-        width: calc(100% / 2 - 16px);
+        width: calc(100% / 2 - 10px);
     }
     .product-content .product-box .product:nth-of-type(3n+1) {
-        /* margin: 0 0 50px 20px ; */
         margin-left: 20px;
     }
     .product-content .product-box .product:nth-of-type(2n+1) {
-        /* margin: 0 0 50px 0 ; */
         margin-left: 0px;
     }
     .product-content .category-box .right {display: none;}
@@ -106,8 +100,14 @@
         background: url(../images/img-banner02-mobile.jpg) no-repeat center / 100% auto ;
         background-size:cover;
     }
+    .product-content .category-box {overflow-x: scroll;}
     .product-content .category-box .left {gap: 8px;}
     .product-content .category-box .left a {font-size: .6rem; width: 3.8rem; line-height: 1.8rem;}
+    .sale-product .sale-banner .banner-box .box .text-box {bottom: 5rem;}
+    .sale-product .sale-banner .banner-box .box .text-box p {font-size: .7rem;}
+    .sale-product .sale-banner .banner-box .box .text-box h2 {font-size: .8rem; line-height: 1.2rem !important;}
+    .sale-product .sale-banner .banner-box .swiper-pagination-bullets.swiper-pagination-horizontal {bottom: 3.5rem;}
+    .sale-product .sale-banner .banner-box .box .btn-box {bottom: 1rem;}
     .sale-product .sale-box {padding: 0;}
     footer .inner .footer-bottom .right .brand-sns {flex-wrap: wrap;}
     footer .inner .footer-top .right {bottom: 10rem;}

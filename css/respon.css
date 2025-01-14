@@ -116,6 +116,15 @@
     .sale-product .sale-box {padding: 0;}
     footer .inner .footer-bottom .right .brand-sns {flex-wrap: wrap;}
     footer .inner .footer-top .right {bottom: 10rem;}
+    .lookbook-popup .popup-wrapper .popup-box {max-width: 320px; width: 320px; flex-direction: column;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-img {max-width: 320px; width: 100%; background-size: 100% auto ;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt {width: 100%; padding: 1rem;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .brand {font-size: 14px;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .name {font-size: 18px; height: auto;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .price .standard {font-size: 16px;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .price .sale {margin: 0 10px 0 0; font-size: 18px;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .price .discount {font-size: 20px;}
+    .lookbook-popup .popup-wrapper .popup-box .popup-txt .detail {margin-top: 12px;}
 }
 @media  (max-width:360px) {
     
